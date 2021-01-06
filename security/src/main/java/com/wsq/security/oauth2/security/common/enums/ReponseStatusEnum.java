@@ -30,8 +30,9 @@ public enum ReponseStatusEnum {
     AUTH_ERROR(6003, "权限不足"),
 
     // login
-    USER_NO_ACCESS(7001, "登入失败"),
-    LOGIN_ERROR(7002, "登入失败");
+    LOGIN_SUCCESS(7000, "登入成功"),
+    LOGIN_ERROR(7001, "登入失败"),
+    USER_NO_ACCESS(7002, "权限不足");
 
     private final int value;
     private final String name;
